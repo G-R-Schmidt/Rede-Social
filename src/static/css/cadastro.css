@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f7ff; /* Cor de fundo mais azulada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    width: 80%;
+}
+
+.custom-form {
+    background-color: #eaf4fd; /* Azul claro */
+    border-radius: 8px;
+    overflow: hidden;
+    width: 70%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.custom-form h2 {
+    color: #3582c4; /* Azul mais escuro */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 12px;
+    color: #3f6b8c; /* Azul médio */
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #a2c4d9; /* Azul mais claro */
+    border-radius: 4px;
+}
+
+.submit-button {
+    background: linear-gradient(to right, #2e5a94, #335e97); /* Gradiente azul */
+    color: #fff;
+    padding: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background: linear-gradient(to right, #1c395f, #204279); /* Gradiente azul mais escuro */
+}
